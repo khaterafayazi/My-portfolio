@@ -1,7 +1,7 @@
 import Image from "next/image"
 export default function AboutMe() {
     return(
-        <div className=" mt-8">
+        <div className=" mt-8 m-4">
             <h2 className="text-3xl text-center mb-4"><span className="text-white">About</span><span className="text-purple-600"> Me</span></h2>
             <div className="flex p-3 border bg-[#15152D] border-purple-500 rounded-2xl">
               <Image src="/images/photo.png" width={100} height={100}/>  

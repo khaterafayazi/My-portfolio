@@ -5,7 +5,7 @@ import {LuCode} from "react-icons/lu";
 import Image from "next/image"
 export default function Hero(){
   return(
-    <div className="mt-8 flex">
+    <div className="mt-8 flex m-6">
       <div>
         <p className="text-white">Hi, I'm</p>
         <h1 className="text-3xl font-bold text-white"><span className=""> Khatera</span><br></br><span> Fayazi</span></h1>
