@@ -12,13 +12,12 @@ export default function Projects (){
             <h2 className="text-center text-white text-3xl font-bold mt-8">My Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-4 items-center m-4  justify-center gap-4 mt-8">
         {ProjectCard.map((cards) => (
-         <div className="bg-clip-text rounded-2xl border border-purple-600" key={cards.title}>
+         <div className="bg-clip-text rounded-2xl border border-purple-700/40" key={cards.title}>
             <h3 className=" text-white p-2 text-2xl font-bold text-center">{cards.title}</h3>
             <img src={cards.image} alt={cards.title} className="w-full h-48 object-cover p-2" />
             <p className="text-purple-600 p-2 "><em>{cards.technologies}</em></p>
             <div className="text-white flex items-center justify-center p-2 mb-3 gap-4">
-            <button className="bg-gradient-to-l from-[#0D0A1F]via-purple-400 to-blue-500 bg-purple-600 rounded-xl p-2 hover:scale-105 transition-transform">Live Demo</button>
-            <button className="bg-gradient-to-l from-[#0D0A1F]via-purple-400 to-blue-500 bg-purple-600 rounded-xl p-2 hover:scale-105 transition-transform">View Code</button>
+            <button className="border border-purple-500 rounded-xl p-2 hover:scale-105 transition-transform">Live Demo</button>
             </div>
          </div>
         ))} 

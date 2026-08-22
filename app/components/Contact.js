@@ -23,7 +23,7 @@ export default function Contact(){
         <div>
             <h4 className="text-2xl text-white text-center font-bold mt-20 mb-8">Contact Me</h4>
             <div className="flex gap-6 p-6">
-            <div className=" border border-purple-600 bg-[#15152D] rounded-2xl p-2 ">
+            <div className=" border border-purple-700/40 bg-[#15152D] rounded-2xl p-2 ">
                 <h5 className="text-white">Get In Touch</h5><hr className="text-white mt-4 mb-3"></hr>
                 <div className="text-white flex ">
                     <Phone className="mb-2 "/>
@@ -51,7 +51,7 @@ export default function Contact(){
                 </div>
                 
             </div>
-            <div className="w-3/4 text-white p-6 bg-[#15152D] border border-purple-600 rounded-2xl">
+            <div className="w-3/4 text-white p-6 bg-[#15152D] border border-purple-700/40 rounded-2xl">
            <form ref = {form} onSubmit = {sendEmail}>
             <div className="mb-2">
             <label>Your Name : </label>
@@ -69,8 +69,12 @@ export default function Contact(){
                 <div>
             <label className="">Your Message</label>
             </div>
-            <div className="border border-white  h-48  rounded-xl">
-            <textarea className="w-full" name="message"></textarea>
+            <div className="border border-white h-48 rounded-xl overflow-hidden">
+            <textarea
+              className="w-full h-full resize-none border-0 bg-transparent p-3 outline-none"
+              name="message"
+              placeholder="Write your message..."
+            ></textarea>
             </div>
             </div>
             <div className="text-center">

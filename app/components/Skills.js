@@ -55,7 +55,6 @@ export default function Skills(){
                     <span className="flex items-center mb-4 text-gray-200 hover:text-purple-400 transition">{skills.name}</span>
                 </div>
             ))}
-            <button className="bg-gradient-to-l from-[#0D0A1F]via-purple-400 to-blue-500 bg-purple-600 rounded-xl p-2 hover:scale-105 transition-transform mt-4">View certificates</button>
         </div>
          ))}
          </div>
