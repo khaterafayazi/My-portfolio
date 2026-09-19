@@ -21,7 +21,7 @@ export default function Contact(){
     }
     return(
         <div>
-            <h4 className="text-2xl text-white text-center font-bold mt-20 mb-8">Contact Me</h4>
+            <h4 className="text-2xl text-white text-center font-bold mt-20 mb-3">Contact Me</h4>
             <div className="flex gap-6 p-6">
             <div className=" border border-purple-700/40 bg-[#15152D] rounded-2xl p-2 ">
                 <h5 className="text-white">Get In Touch</h5><hr className="text-white mt-4 mb-3"></hr>
@@ -55,15 +55,15 @@ export default function Contact(){
            <form ref = {form} onSubmit = {sendEmail}>
             <div className="mb-2">
             <label>Your Name : </label>
-            <input type="text" placeholder="type your name" name="name" className=" w-3/4 backdrop-blur-md p-2 border border-white/20"/>
+            <input type="text" placeholder="type your name" name="name" className="rounded-2xl w-3/4 backdrop-blur-md p-2 border border-white/20"/>
             </div>
             <div className="">
             <label>Your Email :  </label>
-            <input type="email" placeholder="type your email" name="email" className="border border-wite w-3/4 p-2 backdrop-blur-md border border-white/20"/>
+            <input type="email" placeholder="type your email" name="email" className="rounded-2xl border border-wite w-3/4 p-2 backdrop-blur-md border border-white/20"/>
             </div>
             <div className="">
             <label>Subject :  </label>
-            <input type="text" placeholder="subjact" name="title" className="m-6 border border-white w-3/4 p-2 backdrop-blur-md border border-white/20"/>
+            <input type="text" placeholder="subjact" name="title" className="m-6 rounded-2xl border border-white w-3/4 p-2 backdrop-blur-md border border-white/20"/>
             </div>
             <div className="mb-2">
                 <div>

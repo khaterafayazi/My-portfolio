@@ -3,7 +3,7 @@ export default function Projects (){
         {title: "Green Future",image:"/images/image.png",  technologies:"Next.js, React, Tailwind.CSS", live:"https://github.com/FSRahimi/Green-Website.git", code:""},
         {title: "Smart To Do", image:"/images/image1.png", technologies:"React, JavaScript, Local Storage", live:"https://github.com/khaterafayazi/Smart-Todo-App"},
         {title: "Restaurant Order List", image:"/images/restaurant.png", technologies:"HTML , CSS, JavaScript", live:"https://github.com/khaterafayazi/JavaScript"},
-        {title: "Personal Portfolio", image:"/images/portfolio.png", technologies:"Next.js, Tailwind CSS, React", live:"https://github.com/khaterafayazi/My-portfolio"},
+        {title: "Calculator", image:"/images/Calculator.jpg", technologies:"HTML, CSS, Tailwind CSS, JavaScript", live:"https://github.com/khaterafayazi/Calculator"},
 
     ];
 
