@@ -15,7 +15,7 @@ export default function Hero(){
            <a href="https://github.com/khaterafayazi" target="_blenk" rel="noopener noreferrer">
         <button className=" text-white bg-gradient-to-l from-[#0D0A1F]via-purple-400 to-blue-500 p-2  rounded-xl bg-purple-500 hover:scale-105 transition-transform hover:bg-gray-500">View Projects ➔</button>
         </a>
-        <button className="border border-purple-600 ml-3  rounded-xl p-2 text-purple-600 hover:scale-105 transition-transform">Download CV <span className="font-bold">⤓</span></button>
+        <a href="/files/Khatera CV.pdf" download="Khatera CV.pdf" className="download-btn border border-purple-600 ml-3  rounded-xl p-2 text-purple-600 hover:scale-105 transition-transform">Download CV <span className="font-bold">⤓</span></a>
         </div>
         </div>
         <div className="relative flex items-center justify-center w-full h-[500px] ">
